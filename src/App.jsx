@@ -1,6 +1,7 @@
 import "./app.scss"
 import Navbar from "../components/Navbar/Navbar";
-import Test from "./Test.jsx"
+import Hero from "../components/hero/Hero.jsx";
+
 
 
 
@@ -8,6 +9,7 @@ const App = () => {
   return <div>
     <section id="HomePage">
       <Navbar/>
+      {/* <Hero/> */}
     </section>
     
     <section id="Services">Parallax</section>
