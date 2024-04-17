@@ -3,6 +3,20 @@ import "./hero.scss"
 import { duration } from "@mui/material";
 import { motion } from "framer-motion";
 
+const sliderVariants ={
+  initial: {
+    x: 0,
+    },
+    animate: {
+      x:"-220%",
+      transition:{
+        repeat: Infinity,
+        repeatType:"mirror",
+        duration: 20,
+      }
+    },
+  };
+
 const textVariants ={
 initial: {
   x: -500,
@@ -16,6 +30,15 @@ initial: {
       staggerChildren:0.1,
     }
   },
+  scrollButton: {
+    opacity:0,
+    y:10,
+    transition:{
+      duration:2,
+      staggerChildren:0.1,
+      repeat:Infinity
+    }
+  }
 };
 
 const Hero = () => {
@@ -35,14 +58,14 @@ const Hero = () => {
           <motion.button variants={textVariants}>See the Latest Works</motion.button>
           <motion.button>Contact Me</motion.button>
         </motion.div>
-        <img variants={textVariants} src="../../scroll.png"/>
+        <motion.img variants={textVariants} animate="scrollButton" src="../../scroll.png"/>
       </motion.div>
       
       
       </div>
-      <div className="slidingTextContainer">
-        Web Developer Software Developer
-      </div>
+      <motion.div className="slidingTextContainer" variants={sliderVariants} initial='initial' animate="animate">
+        Web Developer Software Developer 
+      </motion.div>
       <div className="imageContainer">
         <img src="../../hero.png" alt=""/>
 
