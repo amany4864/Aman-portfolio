@@ -8,25 +8,25 @@ const items =[
         id:1,
         title:"React Commerce",
         img:"https://images.pexels.com/photos/1066176/pexels-photo-1066176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        desc:"bhaang bhosde wali tere mote mote nain"
+        desc:"tere mote mote nain"
     },
     {
         id:2,
         title:"React Commerce-2",
         img:"https://images.pexels.com/photos/1906658/pexels-photo-1906658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        desc:"bhaang bhosde wali tere mote mote nain"
+        desc:" tere mote mote nain"
     },
     {
         id:3,
         title:"React Commerce-3",
         img:"https://images.pexels.com/photos/341013/pexels-photo-341013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        desc:"bhaang bhosde wali tere mote mote nain"
+        desc:" tere mote mote nain"
     },
     {
         id:4,
         title:"React Commerce-4",
         img:"https://images.pexels.com/photos/1302436/pexels-photo-1302436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2/",
-        desc:"bhaang bhosde wali tere mote mote nain"
+        desc:"tere mote mote nainang "
     },
 ];
 

@@ -4,6 +4,7 @@ import Hero from "../components/hero/Hero";
 import Parallax from "../components/parallax/Parallax";
 import Skills from "../components/skills/Skills";
 import Portfolio from "../components/portfolio/Portfolio";
+import Contact from "../components/contact/Contact";
 
 
 
@@ -22,9 +23,9 @@ const App = () => {
       <Parallax type="portfolio"/>
     </section>
     <Portfolio />
-    <section id=" contact">Contact</section>
-    {/* <Test/>
-    <Test/> */}
+    <section id=" contact">
+      <Contact/>
+    </section>
     
   </div>;
 
