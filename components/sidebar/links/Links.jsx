@@ -25,7 +25,6 @@ const itemvariants = {
 };
 
 const Links = () => {
-
     const items = ["Homepage", "Services", "Portfolio", "Contact", "About"];
 
   return (
@@ -41,7 +40,6 @@ const Links = () => {
         {item}
         </motion.a>
     ))}
-      
     </motion.div>
   );
 };

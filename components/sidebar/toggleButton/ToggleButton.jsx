@@ -35,6 +35,6 @@ const ToggleButton = ({ setOpen }) => {
     </svg>
   </button>
   );
-}
+};
 
 export default ToggleButton;
