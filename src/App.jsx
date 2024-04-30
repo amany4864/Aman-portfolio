@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/hero/Hero";
 import Parallax from "../components/parallax/Parallax";
 import Skills from "../components/skills/Skills";
-import Portfolio from "../components/portfolio/Portfolio";
+import Portfolio from "../components/projects/Projects";
 import Contact from "../components/contact/Contact";
 import Cursor from "../components/cursor/Cursor";
 import About from "../components/about/About";
@@ -16,14 +16,14 @@ const App = () => {
   return (
      <div>
     <Cursor/>
-    <section id="HomePage">
+    <section id="Home">
       <Navbar/>
       <Hero/>
     </section>
-    <section id="Services"><Parallax type="services"/></section>
+    <section id="Skills"><Parallax type="Skills"/></section>
     <section><Skills/></section>
-    <section id="Portfolio">
-      <Parallax type="Portfolio"/>
+    <section id="Projects">
+      <Parallax type="Projects"/>
     </section>
     <Portfolio />
     <section id="Contact">
