@@ -1,5 +1,13 @@
 @import "/src/app.scss";
 
+.Address{
+
+  @include mobile{
+    display: none;
+  }
+
+}
+
 .contact {
   font-size: 20px;
   height: 100%;
@@ -13,6 +21,7 @@
     width: 100%;
     padding: 10px;
     flex-direction: column;
+    gap: 1px;
   }
 
   .textContainer {
@@ -22,10 +31,10 @@
     gap: 40px;
 
     @include mobile {
-      gap: 10px;
+      gap: 0px;
       text-align: center;
       align-items: center;
-      margin-top: 50px;
+      margin-top: 40px;
     }
 
     h1 {
@@ -33,7 +42,14 @@
       line-height: 88px;
 
       @include mobile {
-        font-size: 36px;
+        font-size: 35px;
+      }
+    }
+
+    h2 {
+      // font-size: 0px;
+      @include mobile{
+        font-size: 25px; 
       }
     }
 

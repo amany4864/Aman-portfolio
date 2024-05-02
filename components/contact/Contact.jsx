@@ -55,12 +55,12 @@ const Contact = () => {
       whileInView="animate"
     >
       <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}>Let’s work together</motion.h1>
+        <motion.h1 variants={variants}>Contact Me</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
           <span>aman4864y@gmail.com</span>
         </motion.div>
-        <motion.div className="item" variants={variants}>
+        <motion.div className="Address" variants={variants}>
           <h2>Address</h2>
           <span>86 C Nakhas Olandganj,
           <br/> Jaunpur, Uttar Pradesh</span>
