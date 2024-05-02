@@ -22,10 +22,10 @@
     gap: 40px;
 
     @include mobile {
-      gap: 20px;
+      gap: 10px;
       text-align: center;
       align-items: center;
-      margin-top: 70px;
+      margin-top: 50px;
     }
 
     h1 {
@@ -45,6 +45,7 @@
   .formContainer {
     flex: 1;
     position: relative;
+
     
     @include mobile {
       padding: 50px;
