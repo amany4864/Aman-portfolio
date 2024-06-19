@@ -47,6 +47,8 @@
             .imageContainer{
                 flex: 1;
                 height: 50%;
+    
+                
 
                 @include mobile{
                     width: 100%;
@@ -57,7 +59,7 @@
                 img{
                     width: 100%;
                     height: 100%;
-                    object-fit: cover;
+                    object-fit:contain;
                     @include mobile{
                        object-fit: contain;
                     }
@@ -65,10 +67,14 @@
             }
                 
             .textContainer{
+
+            
                 flex: 1;
                 display: flex;
                 flex-direction: column;
                 gap: 30px;
+
+                   
 
                 @include mobile{
                   transform: none !important;
@@ -98,6 +104,7 @@
                     padding: 10px;
                     width: 200px;
                     cursor: pointer;
+                    font-size: large;
                 }
             }
         }

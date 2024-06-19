@@ -55,14 +55,22 @@ const Experience = () => {
      {/* End of frontend part */}
 
         <div className="experience__backend">
-            <h3>Backend Development</h3>
+            <h3>Programming & Database</h3>
             <div className="experience__content">
 
               <article className='experience__details'>
                 <BsFillPatchCheckFill className='experience__details-icon'/>
                 <div>
-                  <h4>NodeJS</h4>
-                  <small className='text-light'>Beginner</small>
+                  <h4>Python</h4>
+                  <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+
+                <div>
+                  <h4>C</h4>
+                  <small className='text-light'>Experienced</small>
                 </div>
               </article>
               <article className='experience__details'>

@@ -16,7 +16,7 @@ const Navbar = () => {
           Aman Yadav
         </motion.span>
         <div className="social">
-          <a href="https://drive.google.com/file/d/1dp4DJcE6LlGzSG-ZeW8S7pYJsZncxlt6/view?usp=sharing">
+          <a href="https://drive.usercontent.google.com/u/0/uc?id=1dp4DJcE6LlGzSG-ZeW8S7pYJsZncxlt6&export=download">
           <img src="/approved.png" alt="" width= "40 px" />
           </a>
           <a href="https://www.linkedin.com/in/aman4864y/">

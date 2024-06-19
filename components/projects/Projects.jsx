@@ -6,14 +6,13 @@ import React, { useRef } from 'react';
 const items =[
     {
         id:1,
-        title:"React Commerce",
-        img:"https://images.pexels.com/photos/1066176/pexels-photo-1066176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        desc:"tere mote mote nain"
-    },
+        title:"Help-Me (App)",
+        img:"../public/HelpME img.jpg",
+        desc:"Help-Me is an Android application developed using Kotlin. Its primary aim is to enable users to share their location without the need for an internet connection in situations of distress."},
     {
         id:2,
-        title:"React Commerce-2",
-        img:"https://images.pexels.com/photos/1906658/pexels-photo-1906658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        title:"",
+        img:"../public/portfolioss.png",
         desc:" tere mote mote nain"
     },
     {
@@ -49,7 +48,8 @@ const Single = ({item}) =>{
                 <motion.div className='textContainer' style={{y}} >
                     <h2>{item.title}</h2>
                     <p>{item.desc}</p>
-                    <button>See Demo</button>
+                    <button id="android" >See Demo</button>
+                    <button id="android">Visit Repo</button>
                 </motion.div>
             </div>    
             </div>
