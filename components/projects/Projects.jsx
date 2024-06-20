@@ -7,11 +7,11 @@ const items =[
     {
         id:1,
         title:"Help-Me (App)",
-        img:"../public/HelpME img.jpg",
+        img:"/public/HelpME img.jpg",
         desc:"Help-Me is an Android application developed using Kotlin. Its primary aim is to enable users to share their location without the need for an internet connection in situations of distress."},
     {
         id:2,
-        title:"",
+        title:"ok",
         img:"../public/portfolioss.png",
         desc:" tere mote mote nain"
     },
