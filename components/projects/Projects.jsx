@@ -7,25 +7,25 @@ const items =[
     {
         id:1,
         title:"Help-Me (App)",
-        img:"/public/HelpME img.jpg",
+        img:"https://i.postimg.cc/85LH0r1S/helpme3.png",
         desc:"Help-Me is an Android application developed using Kotlin. Its primary aim is to enable users to share their location without the need for an internet connection in situations of distress."},
     {
         id:2,
-        title:"ok",
-        img:"../public/portfolioss.png",
-        desc:" tere mote mote nain"
+        title:"Portfolio website",
+        img:"https://i.postimg.cc/tC8sYv3B/portfolioss.pngpublic/portfolioss.png",
+        desc: "Tools: React, Framer Motion, Email JS. It consists of animations and parallax effects created using Framer Motion’s useScroll and useTransform hooks. It also has a feature to contact me directly from the webpage which is based on Email JS."
     },
     {
         id:3,
-        title:"React Commerce-3",
-        img:"https://images.pexels.com/photos/341013/pexels-photo-341013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        desc:" tere mote mote nain"
+        title:"Aim Trainer",
+        img:"https://i.postimg.cc/1418XM2g/image.png",
+        desc:"Gamers. The main idea behind it, is you have to shoot(click) the target appearing on canvas, and on shooting the target it will reappear at the new location. The tech stack behind uses DOM manipulation, Event Handling, and the SetTimeout function."
     },
     {
         id:4,
-        title:"React Commerce-4",
-        img:"https://images.pexels.com/photos/1302436/pexels-photo-1302436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2/",
-        desc:"tere mote mote nainang "
+        title:"ToDo App",
+        img:"https://i.postimg.cc/XJ0d1fnk/image.png",
+        desc:" The app uses Firebase for online data storage and retrieval. It has the feature to add tasks and remove tasks with one click and it will be directly manipulate inside the database. "
     },
 ];
 
