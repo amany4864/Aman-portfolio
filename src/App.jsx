@@ -3,10 +3,10 @@ import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/hero/Hero";
 import Parallax from "../components/parallax/Parallax";
 import Skills from "../components/skills/Skills";
-import Portfolio from "../components/projects/Projects";
 import Contact from "../components/contact/Contact";
 import Cursor from "../components/cursor/Cursor";
 import About from "../components/about/About";
+import Projects from "../components/projects/Projects";
 
 
 
@@ -25,7 +25,7 @@ const App = () => {
     <section id="Projects">
       <Parallax type="Projects"/>
     </section>
-    <Portfolio />
+    <Projects />
     <section id="Contact">
       <Contact/>
     </section>
